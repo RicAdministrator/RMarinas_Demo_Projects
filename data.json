@@ -1,0 +1,42 @@
+[
+  {
+    "projectName": "ML Heroes CRUD 1",
+    "techUsed": [
+      "Front End: Vue 3, Options API, Javascript, W3.CSS, CSS, Vite",
+      "API: Node.js REST API, Javascript, Joi JS Library, Postman",
+      "DB: MySQL, drawio",
+      "Automated Test: Selenium, WebdriverIO"
+    ],
+    "repo": {
+      "label": "Repo - ML_Heroes",
+      "url": "https://github.com/RicAdministrator/ML_Heroes"
+    },
+    "demos": [
+      {
+        "label": "Demo - ML Heroes CRUD 1",
+        "url": "https://drive.google.com/file/d/1PLpiItq0Pp2wDSzru7ezKeTlpfqGPBBX/view?usp=drive_link"
+      },
+      {
+        "label": "Selenium Automated Testing Demo",
+        "url": "https://drive.google.com/file/d/1REWr8LivsDNN_26nsvs-cePW_qdzR7nP/view?usp=sharing"
+      },
+      {
+        "label": "WebdriverIO Automated Testing Demo",
+        "url": "https://drive.google.com/file/d/1Dh5LYaob3NN69gXfbj1-Oie3caqk8DLY/view?usp=drive_link"
+      }
+    ]
+  },
+  {
+    "projectName": "ML Heroes CRUD 2",
+    "techUsed": [
+      "Front End: Vue 3, Options API, Javascript, W3.CSS, CSS",
+      "API: GraphQL, Node.js, Javascript, Apollo Server",
+      "DB: MongoDB, Python"
+    ],
+    "repo": {
+      "label": "Repo - ML_Heroes_2",
+      "url": "https://github.com/RicAdministrator/ML_Heroes_2"
+    },
+    "demos": []
+  }
+]
