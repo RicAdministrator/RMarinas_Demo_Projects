@@ -8,7 +8,7 @@
       "Automated Test: Selenium, WebdriverIO"
     ],
     "repo": {
-      "label": "Repo - ML_Heroes",
+      "label": "ML_Heroes",
       "url": "https://github.com/RicAdministrator/ML_Heroes"
     },
     "demos": [
@@ -34,8 +34,464 @@
       "DB: MongoDB, Python"
     ],
     "repo": {
-      "label": "Repo - ML_Heroes_2",
+      "label": "ML_Heroes_2",
       "url": "https://github.com/RicAdministrator/ML_Heroes_2"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "ML Heroes CRUD 3",
+    "techUsed": [
+      "Font End: React, Javascript, W3.CSS, CSS",
+      "API: Node.js REST API, Javascript, Joi JS Library, Postman",
+      "DB: PostgreSQL, Python, drawio"
+    ],
+    "repo": {
+      "label": "ML_Heroes_3",
+      "url": "https://github.com/RicAdministrator/ML_Heroes_3"
+    },
+    "demos": [
+      {
+        "label": "Demo",
+        "url": "https://drive.google.com/file/d/1Tg1Vam2Cww56VRHIxNaWHheiDrUJck5-/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "projectName": "ML Heroes CRUD 4",
+    "techUsed": [
+      "Front End: AngularJS, Javascript, W3.CSS, CSS",
+      "API: .Net WEB API, .NET 9.0, Entity Framework, Scalar",
+      "DB: SQL"
+    ],
+    "repo": {
+      "label": "ML_Heroes_4",
+      "url": "https://github.com/RicAdministrator/ML_Heroes_4.git"
+    },
+    "demos": [
+      {
+        "label": "Demo",
+        "url": "https://drive.google.com/file/d/1offz7jB1XPIWP3CY2D-mGJvR5oKbDEm7/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "projectName": "ML Heroes CRUD 5",
+    "techUsed": [
+      "Front End: Vue 3, Options API, TypeScript, Javascript, W3.CSS, CSS"
+    ],
+    "repo": {
+      "label": "ML_Heroes_5",
+      "url": "https://github.com/RicAdministrator/ML_Heroes_5"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "ML Heroes CRUD 6",
+    "techUsed": [
+      "Front End: Vue 3, Composition API, TypeScript, Javascript, W3.CSS, CSS"
+    ],
+    "repo": {
+      "label": "ML_Heroes_6",
+      "url": "https://github.com/RicAdministrator/ML_Heroes_6"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "ML Heroes WPF",
+    "techUsed": [
+      "Front End: WPF, MVVM, .NET 9.0, C#",
+      "API: Node.js REST API, Javascript, Joi JS Library, Postman",
+      "DB: MySQL, drawio"
+    ],
+    "repo": {
+      "label": "ML_Heroes_WPF",
+      "url": "https://github.com/RicAdministrator/ML_Heroes_WPF"
+    },
+    "demos": [
+      {
+        "label": "Demo",
+        "url": "https://drive.google.com/file/d/1ZTSiG2UlPlFldux6-TrV0NSyZi6PqEHx/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "projectName": "Social Media App for Runners",
+    "techUsed": [
+      "Tech: ASP.NET Core Web App (Model-View-Controller), MVC, .NET 8.0, Entity Framework, Bootstrap, SQL, Identity Framework, Cloudinary",
+      "NuGet Packages: CloudinaryDotNet, Microsoft.EntityFrameworkCore, Microsoft.AspNetCore.Identity.EntityFrameworkCore"
+    ],
+    "repo": {
+      "label": "RunGroupWebApp",
+      "url": "https://github.com/RicAdministrator/RunGroupWebApp"
+    },
+    "demos": [
+      { "label": "Demo Part 1", "url": "https://drive.google.com/file/d/1wc0I82QSSTsGAAcWcdgOw7xDUn68XfCX/view" },
+      { "label": "Demo Part 2", "url": "https://drive.google.com/file/d/1BgGDl7EPfR9yaC240j6gdzE29I2Rq_do/view" },
+      { "label": "Demo Part 3", "url": "https://drive.google.com/file/d/1DdGe2UdRlWjnWzxqr1bDPxjtM-oEICvR/view" }
+    ]
+  },
+  {
+    "projectName": "Jokes Web App",
+    "techUsed": [
+      "Tech: ASP.NET Core Web App (Model-View-Controller), MVC, .NET 8.0, Entity Framework, Bootstrap, SQL, Identity Framework"
+    ],
+    "repo": {
+      "label": "JokesWebApp",
+      "url": "https://github.com/RicAdministrator/JokesWebApp"
+    },
+    "demos": [
+      { "label": "Demo", "url": "https://drive.google.com/file/d/1mcv7ZKySdemIcR6eVdAG4lnq1403z_GH/view" }
+    ]
+  },
+  {
+    "projectName": "Vuex Demo",
+    "techUsed": [
+      "Tech: Vue, Vuex"
+    ],
+    "repo": {
+      "label": "learn-vuex",
+      "url": "https://github.com/RicAdministrator/learn-vuex"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "Solving Codewars Problems Using C#",
+    "techUsed": [
+      "Tech: C#, .NET Framework 4.8, LINQ, MSTest, NUnit"
+    ],
+    "repo": {
+      "label": "CodeWars2",
+      "url": "https://github.com/RicAdministrator/CodeWars2"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "Solving Codewars Problems Using TypeScript",
+    "techUsed": [
+      "Tech: TypeScript, Chai Assertion Library, Jest"
+    ],
+    "repo": {
+      "label": "TypeScript-CodeWars",
+      "url": "https://github.com/RicAdministrator/TypeScript-CodeWars"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "Solving Codewars Problems Using Javascript",
+    "techUsed": [
+      "Tech: Javascript, Chai Assertion Library"
+    ],
+    "repo": {
+      "label": "TypeScript-CodeWars/dist",
+      "url": "https://github.com/RicAdministrator/TypeScript-CodeWars/tree/master/dist"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "Solving Codewars Problems Using Python",
+    "techUsed": [
+      "Tech: Python"
+    ],
+    "repo": {
+      "label": "CodeWarsPython",
+      "url": "https://github.com/RicAdministrator/CodeWarsPython"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "Solving Codewars Problems Using Java",
+    "techUsed": [
+      "Tech: Java"
+    ],
+    "repo": {
+      "label": "CodeWarsJava",
+      "url": "https://github.com/RicAdministrator/CodeWarsJava"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "Solving Codewars Problems Using SQL",
+    "techUsed": [
+      "Tech: Oracle"
+    ],
+    "repo": {
+      "label": "SQL_Codewars",
+      "url": "https://github.com/RicAdministrator/SQL_Codewars"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "Solving Codewars Problems Using VB.Net",
+    "techUsed": [
+      "Tech: VB.Net, .NET 9.0"
+    ],
+    "repo": {
+      "label": "VBDOTNET_Codewars",
+      "url": "https://github.com/RicAdministrator/VBDOTNET_Codewars"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "Python Quiz App",
+    "techUsed": [
+      "Tech: Python, MySQL, drawio"
+    ],
+    "repo": {
+      "label": "D_PYTHON_QUIZ",
+      "url": "https://github.com/RicAdministrator/Python_Learnings/tree/master/D_PYTHON_QUIZ"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "W3Schools - C# Exercises (Basics, OOP, SOLID)",
+    "techUsed": [
+      "Tech: C#, .NET 9.0, console"
+    ],
+    "repo": {
+      "label": "W3Schools_CSharp",
+      "url": "https://github.com/RicAdministrator/W3Schools_CSharp"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "W3Schools - CSS3 Exercises",
+    "techUsed": [
+      "Tech: CSS3"
+    ],
+    "repo": {
+      "label": "W3Schools_CSS",
+      "url": "https://github.com/RicAdministrator/W3Schools_CSS"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "W3Schools - Javascript ES6 Exercises",
+    "techUsed": [
+      "Tech: Javascript ES6"
+    ],
+    "repo": {
+      "label": "W3schools_Javascript",
+      "url": "https://github.com/RicAdministrator/W3schools_Javascript"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "W3Schools - Vue Exercises",
+    "techUsed": [
+      "Tech: Vue"
+    ],
+    "repo": {
+      "label": "VueProject1/secondsfc",
+      "url": "https://github.com/RicAdministrator/VueProject1/tree/master/secondsfc"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "W3Schools - React Exercises",
+    "techUsed": [
+      "Tech: React"
+    ],
+    "repo": {
+      "label": "W3Schools-React",
+      "url": "https://github.com/RicAdministrator/W3Schools-React"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "W3Schools - AngularJS Exercises",
+    "techUsed": [
+      "Tech: AngularJS"
+    ],
+    "repo": {
+      "label": "Angular_W3Schools",
+      "url": "https://github.com/RicAdministrator/Angular_W3Schools"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "W3Schools - Python Exercises",
+    "techUsed": [
+      "Tech: Python"
+    ],
+    "repo": [
+      {
+        "label": "PYTHON_BASICS",
+        "url": "https://github.com/RicAdministrator/Python_Learnings/tree/master/A_PYTHON_BASICS"
+      },
+      {
+        "label": "PYTHON_FILE_HANDLING",
+        "url": "https://github.com/RicAdministrator/Python_Learnings/tree/master/B_PYTHON_FILE_HANDLING"
+      },
+      {
+        "label": "PYTHON_MYSQL",
+        "url": "https://github.com/RicAdministrator/Python_Learnings/tree/master/C_PYTHON_MYSQL"
+      },
+      {
+        "label": "PYTHON_MONGODB",
+        "url": "https://github.com/RicAdministrator/Python_Learnings/tree/master/E_PYTHON_MONGODB"
+      }
+    ],
+    "demos": []
+  },
+  {
+    "projectName": "W3Schools - Node.js Exercises",
+    "techUsed": [
+      "Tech: Node.js"
+    ],
+    "repo": {
+      "label": "NodeJS",
+      "url": "https://github.com/RicAdministrator/NodeJS"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "HTML5 Exercises",
+    "techUsed": [
+      "Tech: HTML5"
+    ],
+    "repo": {
+      "label": "What_Is_New_With_HTML5",
+      "url": "https://github.com/RicAdministrator/What_Is_New_With_HTML5"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "GraphQL CRUD Exercise",
+    "techUsed": [
+      "API: GraphQL, Node.js, Apollo Server",
+      "Datasource: JS array of objects only"
+    ],
+    "repo": {
+      "label": "GraphQL_Course",
+      "url": "https://github.com/RicAdministrator/GraphQL_Course"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "Node.js REST API CRUD Exercise",
+    "techUsed": [
+      "API: Node.js REST API, Joi JS Library",
+      "Datasource: JS array of objects only"
+    ],
+    "repo": {
+      "label": "Courses_Rest_API",
+      "url": "https://github.com/RicAdministrator/Courses_Rest_API"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "Video Game Web API",
+    "techUsed": [
+      "Tech: .NET 9.0, Web API (REST), Entity Framework Code-First Migrations, SQL Server, Scalar",
+      "Note: manual test endpoints / endpoints documentation"
+    ],
+    "repo": {
+      "label": "VideoGame",
+      "url": "https://github.com/RicAdministrator/VideoGame"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "Power BI Demo",
+    "techUsed": [
+      "Tech: Power BI Desktop, MS Excel"
+    ],
+    "repo": null,
+    "demos": [
+      { "label": "Demo", "url": "https://drive.google.com/file/d/1vbkAroaLpgIXhGz0AFCbMEZQh2i8I6Xt/view" }
+    ]
+  },
+  {
+    "projectName": "Service Workers Demo",
+    "techUsed": [
+      "Tech: Service Worker"
+    ],
+    "repo": {
+      "label": "ServiceWorkers",
+      "url": "https://github.com/RicAdministrator/ServiceWorkers"
+    },
+    "demos": [
+      { "label": "Demo", "url": "https://drive.google.com/file/d/1IIHH3gcKTKezUO78jiujMaPdPTtlw-_W/view?usp=drive_link" }
+    ]
+  },
+  {
+    "projectName": "Mood App",
+    "techUsed": [
+      "Tech: Docker, Angular, TypeScript, SCSS, .Net WEB API, .NET 8.0, Postman, MySQL"
+    ],
+    "repo": {
+      "label": "Mood App",
+      "url": "https://github.com/RicAdministrator/InterviewProjectTemplate-master"
+    },
+    "demos": [
+      { "label": "Demo", "url": "https://drive.google.com/file/d/1Gl3_3OJYX3QqppIPx28-iVO3nA-7W1fM/view" }
+    ]
+  },
+  {
+    "projectName": "WCF Exercises",
+    "techUsed": [
+      "Tech: WCF, .NET Framework 4.8, Console, C# .Net Webforms, Windows Forms, ADO.NET, SQL"
+    ],
+    "repo": {
+      "label": "WCF_Exercises",
+      "url": "https://github.com/RicAdministrator/WCF_Exercises"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "Dental CSV to SQL",
+    "techUsed": [
+      "Tech: Windows Forms, .NET Framework 4.8, ADO.NET, SQL, CSV"
+    ],
+    "repo": {
+      "label": "Dental_CSV_To_SQL",
+      "url": "https://github.com/RicAdministrator/Dental_CSV_To_SQL"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "Web Service Exercises",
+    "techUsed": [
+      "Tech: Web Service, .NET Framework 4.8, C# .Net Webforms, ADO.NET, SQL"
+    ],
+    "repo": {
+      "label": "Web_Service_Exercises",
+      "url": "https://github.com/RicAdministrator/Web_Service_Exercises"
+    },
+    "demos": []
+  },
+  {
+    "projectName": "Solving SQL Deadlocks and Slowness",
+    "techUsed": [
+      "Google Doc"
+    ],
+    "repo": null,
+    "demos": [
+      { "label": "Google Doc", "url": "https://docs.google.com/document/d/e/2PACX-1vRqSY4EijqPuTWA-FgG1BTtAhnWrg0sxT7jkfr_Bh1N2ZsS/p7jFoKnlqHGv-tyn_JdQkSK3oBsbnAst/pub" }
+    ]
+  },
+  {
+    "projectName": "JQuery_Demo",
+    "techUsed": [
+      "Tech: JQuery"
+    ],
+    "repo": {
+      "label": "JQuery_Demo",
+      "url": "https://github.com/RicAdministrator/JQuery_Demo"
+    },
+    "demos": [
+      { "label": "Demo", "url": "https://drive.google.com/file/d/1r9bDIZDDto-mhZrkVvc4MDOa7qD1F7nm/view" }
+    ]
+  },
+  {
+    "projectName": "WPF Exercises",
+    "techUsed": [
+      "Tech: WPF"
+    ],
+    "repo": {
+      "label": "WPF_Exercises",
+      "url": "https://github.com/RicAdministrator/WPF_Exercises"
     },
     "demos": []
   }

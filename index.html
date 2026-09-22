@@ -6,120 +6,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="RMarinas Demo Projects" />
   <title>RMarinas Demo Projects</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 32px 20px;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f4f7fb;
-      color: #1f2937;
-    }
-
-    table {
-      width: 100%;
-      max-width: 1200px;
-      margin: 0 auto;
-      border-collapse: collapse;
-      background: #ffffff;
-      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
-      border-radius: 12px;
-      overflow: hidden;
-    }
-
-    th,
-    td {
-      border: 1px solid #e5e7eb;
-      padding: 14px 16px;
-      text-align: left;
-      vertical-align: top;
-      line-height: 1.5;
-    }
-
-    th {
-      background: #1f4e79;
-      color: #ffffff;
-      font-size: 0.95rem;
-      letter-spacing: 0.02em;
-    }
-
-    tr:nth-child(even) {
-      background: #f9fafb;
-    }
-
-    tr:hover {
-      background: #eef6ff;
-    }
-
-    a {
-      color: #0f6cbd;
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    @media (max-width: 768px) {
-      table {
-        display: block;
-        overflow-x: auto;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <table>
-    <thead>
-      <tr>
-        <th>Project Name</th>
-        <th>Tech Used</th>
-        <th>Repo</th>
-        <th>Demos</th>
-      </tr>
-    </thead>
-    <tbody id="project-table-body"></tbody>
-  </table>
-
-  <script>
-    fetch('data.json')
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error('Unable to load data.json');
-        }
-        return response.json();
-      })
-      .then((projects) => {
-        const tbody = document.getElementById('project-table-body');
-
-        tbody.innerHTML = projects
-          .map((project) => {
-            const techHtml = project.techUsed.map((item) => item).join('<br>');
-            const repoHtml = `<a href="${project.repo.url}">${project.repo.label}</a>`;
-            const demosHtml = project.demos.length
-              ? project.demos
-                  .map((demo) => `<a href="${demo.url}">${demo.label}</a>`)
-                  .join('<br>')
-              : 'N/A';
-
-            return `
-              <tr>
-                <td>${project.projectName}</td>
-                <td>${techHtml}</td>
-                <td>${repoHtml}</td>
-                <td>${demosHtml}</td>
-              </tr>
-            `;
-          })
-          .join('');
-      })
-      .catch((error) => {
-        const tbody = document.getElementById('project-table-body');
-        tbody.innerHTML = '<tr><td colspan="4">Unable to load project data.</td></tr>';
-        console.error(error);
-      });
-  </script>
+  <div class="header">Header Text</div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Project Name</th>
+          <th>Tech Used</th>
+          <th>Repo</th>
+          <th>Demos</th>
+        </tr>
+        <tr class="filter-row">
+          <td><input type="text" data-filter="projectName" placeholder="Filter project name" /></td>
+          <td><input type="text" data-filter="techUsed" placeholder="Filter tech" /></td>
+          <td><input type="text" data-filter="repo" placeholder="Filter repo" /></td>
+          <td><input type="text" data-filter="demos" placeholder="Filter demos" /></td>
+        </tr>
+      </thead>
+      <tbody id="project-table-body"></tbody>
+    </table>
+  </div>
+  <div class="footer">Footer Text</div>
+  <script src="script.js"></script>
 </body>
 
 </html>
