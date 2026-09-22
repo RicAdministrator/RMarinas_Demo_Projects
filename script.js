@@ -21,17 +21,26 @@ function getProjectText(project) {
   };
 }
 
+function updateProjectCount(filteredProjects, totalProjects) {
+  const countLabel = document.getElementById('project-count');
+  if (!countLabel) return;
+  countLabel.textContent = `Showing ${filteredProjects.length} out of ${totalProjects} projects`;
+}
+
 function renderProjects(projects) {
   const tbody = document.getElementById('project-table-body');
 
-  tbody.innerHTML = projects
-    .filter((project) => {
-      const text = getProjectText(project);
-      return Object.entries(filters).every(([key, value]) => {
-        if (!value) return true;
-        return text[key].includes(normalizeText(value));
-      });
-    })
+  const filteredProjects = projects.filter((project) => {
+    const text = getProjectText(project);
+    return Object.entries(filters).every(([key, value]) => {
+      if (!value) return true;
+      return text[key].includes(normalizeText(value));
+    });
+  });
+
+  updateProjectCount(filteredProjects, projects.length);
+
+  tbody.innerHTML = filteredProjects
     .map((project) => {
       const techHtml = project.techUsed && project.techUsed.length
         ? project.techUsed.join('<br>')
@@ -48,14 +57,14 @@ function renderProjects(projects) {
             .map((repo) => {
               const url = typeof repo === 'string' ? repo : repo.url;
               const label = typeof repo === 'string' ? 'Repo' : (repo.label || 'Repo');
-              return `<a href="${url}">${label}</a>`;
+              return `<a href="${url}" target="_blank" rel="noopener noreferrer">${label}</a>`;
             })
             .join('<br>')
         : 'N/A';
 
       const demosHtml = project.demos && project.demos.length
         ? project.demos
-            .map((demo) => `<a href="${demo.url}">${demo.label || 'Demo'}</a>`)
+            .map((demo) => `<a href="${demo.url}" target="_blank" rel="noopener noreferrer">${demo.label || 'Demo'}</a>`)
             .join('<br>')
         : 'N/A';
 

@@ -11,6 +11,12 @@ body {
   gap: 12px;
 }
 
+.title-row {
+  display: flex;
+  align-items: stretch;
+  gap: 12px;
+}
+
 .header,
 .footer {
   background: #f8fafc;
@@ -21,6 +27,25 @@ body {
   border-radius: 8px;
   box-sizing: border-box;
   flex-shrink: 0;
+}
+
+.header {
+  flex: 1 1 auto;
+}
+
+.project-count {
+  background: #eef6ff;
+  color: #1f4e79;
+  border: 1px solid #cfe1ff;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  flex: 0 0 auto;
 }
 
 .table-wrap {

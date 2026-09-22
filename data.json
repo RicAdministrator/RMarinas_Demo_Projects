@@ -61,7 +61,7 @@
     "projectName": "ML Heroes CRUD 4",
     "techUsed": [
       "Front End: AngularJS, Javascript, W3.CSS, CSS",
-      "API: .Net WEB API, .NET 9.0, Entity Framework, Scalar",
+      "API: C#, .Net WEB API, .NET 9.0, Entity Framework, Scalar",
       "DB: SQL"
     ],
     "repo": {
@@ -118,7 +118,7 @@
   {
     "projectName": "Social Media App for Runners",
     "techUsed": [
-      "Tech: ASP.NET Core Web App (Model-View-Controller), MVC, .NET 8.0, Entity Framework, Bootstrap, SQL, Identity Framework, Cloudinary",
+      "Tech: C#, ASP.NET Core Web App (Model-View-Controller), MVC, .NET 8.0, Entity Framework, Bootstrap, SQL, Identity Framework, Cloudinary",
       "NuGet Packages: CloudinaryDotNet, Microsoft.EntityFrameworkCore, Microsoft.AspNetCore.Identity.EntityFrameworkCore"
     ],
     "repo": {
@@ -134,7 +134,7 @@
   {
     "projectName": "Jokes Web App",
     "techUsed": [
-      "Tech: ASP.NET Core Web App (Model-View-Controller), MVC, .NET 8.0, Entity Framework, Bootstrap, SQL, Identity Framework"
+      "Tech: C#, ASP.NET Core Web App (Model-View-Controller), MVC, .NET 8.0, Entity Framework, Bootstrap, SQL, Identity Framework"
     ],
     "repo": {
       "label": "JokesWebApp",
