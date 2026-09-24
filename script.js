@@ -27,15 +27,32 @@ function updateProjectCount(filteredProjects, totalProjects) {
   countLabel.textContent = `Showing ${filteredProjects.length} out of ${totalProjects} projects`;
 }
 
+function getFilterTerms(value) {
+  return normalizeText(value)
+    .split('/')
+    .flatMap((segment) => segment.split(','))
+    .map((segment) => segment.trim())
+    .filter(Boolean);
+}
+
+function matchesTextFilter(projectText, key, value) {
+  if (!value) return true;
+
+  if (key === 'techUsed') {
+    const terms = getFilterTerms(value);
+    if (terms.length === 0) return true;
+    return terms.every((term) => projectText.techUsed.includes(term));
+  }
+
+  return projectText[key].includes(normalizeText(value));
+}
+
 function renderProjects(projects) {
   const tbody = document.getElementById('project-table-body');
 
   const filteredProjects = projects.filter((project) => {
     const text = getProjectText(project);
-    return Object.entries(filters).every(([key, value]) => {
-      if (!value) return true;
-      return text[key].includes(normalizeText(value));
-    });
+    return Object.entries(filters).every(([key, value]) => matchesTextFilter(text, key, value));
   });
 
   updateProjectCount(filteredProjects, projects.length);
