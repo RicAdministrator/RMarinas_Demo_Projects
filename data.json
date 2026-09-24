@@ -100,7 +100,7 @@
   {
     "projectName": "ML Heroes WPF",
     "techUsed": [
-      "Front End: WPF, MVVM, .NET 9.0, C#",
+      "App: WPF, MVVM, .NET 9.0, C#",
       "API: Node.js REST API, Javascript, Joi JS Library, Postman",
       "DB: MySQL, drawio"
     ],
@@ -464,7 +464,7 @@
   {
     "projectName": "Solving SQL Deadlocks and Slowness",
     "techUsed": [
-      "Google Doc"
+      "SQL"
     ],
     "repo": null,
     "demos": [
@@ -494,5 +494,18 @@
       "url": "https://github.com/RicAdministrator/WPF_Exercises"
     },
     "demos": []
+  },
+  {
+    "projectName": "RMarinas Demo Projects",
+    "techUsed": [
+      "Tech: HTML, CSS, Javascript"
+    ],
+    "repo": {
+      "label": "RMarinas_Demo_Projects",
+      "url": "https://github.com/RicAdministrator/RMarinas_Demo_Projects"
+    },
+    "demos": [
+      { "label": "Web App", "url": "https://ricadministrator.github.io/RMarinas_Demo_Projects/" }
+    ]
   }
 ]
