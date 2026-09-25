@@ -6,12 +6,18 @@ function normalizeText(value) {
 
 function getProjectText(project) {
   const tech = (project.techUsed || []).join(' ');
-  const repoList = (Array.isArray(project.repo) ? project.repo : project.repo ? [project.repo] : [])
-    .map((repo) => typeof repo === 'string' ? repo : `${repo.label || ''} ${repo.url || ''}`)
-    .join(' ');
-  const demoList = (project.demos || [])
-    .map((demo) => `${demo.label || ''} ${demo.url || ''}`)
-    .join(' ');
+  const repoItems = Array.isArray(project.repo)
+    ? project.repo
+    : project.repo
+      ? [project.repo]
+      : [];
+  const repoList = repoItems.length
+    ? repoItems.map((repo) => typeof repo === 'string' ? repo : (repo.label || 'Repo')).join(' ')
+    : 'N/A';
+  const demoItems = project.demos || [];
+  const demoList = demoItems.length
+    ? demoItems.map((demo) => demo.label || 'Demo').join(' ')
+    : 'N/A';
 
   return {
     projectName: normalizeText(project.projectName),

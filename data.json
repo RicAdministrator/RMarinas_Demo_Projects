@@ -442,7 +442,7 @@
   {
     "projectName": "Dental CSV to SQL",
     "techUsed": [
-      "Tech: Windows Forms, .NET Framework 4.8, ADO.NET, SQL, CSV"
+      "Tech: C# Windows Forms, .NET Framework 4.8, ADO.NET, SQL, CSV"
     ],
     "repo": {
       "label": "Dental_CSV_To_SQL",
@@ -468,7 +468,7 @@
     ],
     "repo": null,
     "demos": [
-      { "label": "Google Doc", "url": "https://docs.google.com/document/d/e/2PACX-1vRqSY4EijqPuTWA-FgG1BTtAhnWrg0sxT7jkfr_Bh1N2ZsS/p7jFoKnlqHGv-tyn_JdQkSK3oBsbnAst/pub" }
+      { "label": "Google Doc", "url": "https://docs.google.com/document/d/e/2PACX-1vRqSY4EijqPuTWA-FgG1BTtAhnWrg0sxT7jkfr_Bh1N2ZsSp7jFoKnlqHGv-tyn_JdQkSK3oBsbnAst/pub" }
     ]
   },
   {
